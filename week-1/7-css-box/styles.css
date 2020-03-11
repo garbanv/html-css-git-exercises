@@ -2,5 +2,16 @@
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
-  background: #fff;
+  background: #ffffff;
+  padding: 5px;
+}
+
+.pages {
+  margin-top: 10px;
+}
+.country {
+  margin-bottom: 10px;
+}
+.site-wrapper {
+  padding-bottom: 30px;
 }
