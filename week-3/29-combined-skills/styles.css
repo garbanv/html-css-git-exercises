@@ -1,1 +1,37 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  max-width: 50em;
+  line-height: 2;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  .views {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 48px !important;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-around;
+  }
+}
